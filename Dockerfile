@@ -1,4 +1,4 @@
-FROM python:3.7-slim-stretch
+FROM python:3.6-slim-stretch
 MAINTAINER Alex Paul
 
 RUN apt-get update && apt-get -y dist-upgrade
